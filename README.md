@@ -1,18 +1,34 @@
-# Hi there, I'm Ali Murtoza Shihab 👋
+<h1 align="center">Hi 👋, I'm Ali Murtoza Shihab</h1>
 
-### Software Engineer • Research Enthusiast • Lifelong Learner
+<h3 align="center">
+Full-Stack Software Engineer • Research Enthusiast • Lifelong Learner
+</h3>
 
-> *Building reliable software today while preparing for tomorrow's research.*
+<p align="center">
+Building reliable software, exploring Artificial Intelligence, and continuously learning.
+</p>
 
 ---
 
 ## 👨‍💻 About Me
 
-- 💼 Full-Stack Software Engineer with **3 years** of industry experience
+- 💼 Full-Stack Software Engineer with **3 years** of professional experience
 - 🎓 B.Sc. in Computer Science & Engineering, **University of Dhaka**
-- 🔬 Interested in **Software Engineering, AI, Machine Learning, and Distributed Systems**
-- 📖 Currently strengthening my expertise in **ASP.NET Core, React, System Design, Docker, AWS, and AI**
-- 🎯 Long-term goal: **MS → PhD** focused on Software Engineering / AI
+- 🔬 Passionate about **Software Engineering**, **Artificial Intelligence**, and **Machine Learning**
+- 🚀 Interested in scalable backend systems, distributed systems, and modern web development
+- 📖 Currently learning **System Design**, **Cloud**, **Docker**, and **Advanced ASP.NET Core**
+- 🌱 Always building, always learning
+
+---
+
+## 🚀 Current Focus
+
+- 🔬 Software Defect Prediction Research
+- 💻 ASP.NET Core & React
+- 🧠 Machine Learning
+- ⚙️ System Design
+- ☁️ Cloud Technologies
+- ✍️ Technical Writing
 
 ---
 
@@ -20,80 +36,65 @@
 
 ### Languages
 
-![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+<p>
+<img src="https://skillicons.dev/icons?i=cs,cpp,js,ts,python" />
+</p>
 
 ### Backend
 
-- ASP.NET Core
-- REST APIs
-- Entity Framework Core
-- PostgreSQL
-- SQL Server
+<p>
+<img src="https://skillicons.dev/icons?i=dotnet,nodejs" />
+</p>
 
 ### Frontend
 
-- React
-- Next.js
-- HTML
-- CSS
-- Tailwind CSS
+<p>
+<img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind" />
+</p>
+
+### Database
+
+<p>
+<img src="https://skillicons.dev/icons?i=postgres,mysql" />
+</p>
 
 ### DevOps & Tools
 
-Git • Docker • Linux • GitHub Actions • AWS (Learning)
-
----
-
-## 🚀 Current Focus
-
-- 🧠 Software Defect Prediction Research
-- 🤖 Machine Learning for Software Engineering
-- ⚙️ System Design
-- 📚 Competitive Programming
-- ✍️ Technical Writing
-
----
-
-## 📊 GitHub Statistics
-
-<p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=AliMurtoza&show_icons=true&theme=tokyonight&rank_icon=github&hide_border=true&include_all_commits=true"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliMurtoza&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</p>
-
----
-
-## 🔥 GitHub Streak
-
-<p align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com?user=AliMurtoza&theme=github-dark&hide_border=true"/>
-
+<p>
+<img src="https://skillicons.dev/icons?i=docker,git,github,linux,aws,vscode" />
 </p>
 
 ---
 
 ## 📌 Featured Projects
 
-- 🔬 Software Structural Defect Prediction
-- 🧬 Protein-Protein Interaction Prediction using CNN
-- 🌐 Full Stack .NET Applications
-- 🤖 Machine Learning Experiments
+🔹 Software Structural Defect Prediction
+
+🔹 Protein-Protein Interaction Prediction using CNN
+
+🔹 Full-Stack .NET Applications
+
+🔹 Machine Learning Experiments
 
 ---
 
-## 📚 Publications
+## 📚 Research & Publications
 
-- Protein-Protein Interaction Prediction using CNN
-- Machine Learning in Radiation Oncology
-- Software Structural Defect Prediction *(ongoing)*
+- 📄 Predicting Protein–Protein Interaction on Domain and Interface Levels using CNN
+- 📄 Applications and Limitations of Machine Learning in Radiation Oncology
+- 📄 Software Structural Defect Prediction *(Work in Progress)*
+
+---
+
+## 📈 GitHub Stats
+
+<p align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=AliMurtoza&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"/>
+
+<img height="170" src="https://streak-stats.demolab.com?user=AliMurtoza&theme=tokyonight&hide_border=true"/>
+
+</p>
 
 ---
 
@@ -101,31 +102,36 @@ Git • Docker • Linux • GitHub Actions • AWS (Learning)
 
 - 💙 LeetCode
 - 🟡 Codeforces
-- 🟤 AtCoder
-- 🟠 CodeChef
+- 🟢 AtCoder
+- 🟤 CodeChef
 
 ---
 
-## 🌱 Currently Learning
+## 🌱 Currently Exploring
 
+- Artificial Intelligence
+- Machine Learning
+- Software Architecture
 - Distributed Systems
 - Cloud Computing
-- Advanced ASP.NET Core
-- Artificial Intelligence
 - Research Methodology
 
 ---
 
-## 📫 Let's Connect
+## 📫 Connect with Me
 
-- LinkedIn
-- GitHub
-- Medium
+<p>
+
+<a href="https://github.com/AliMurtoza">GitHub</a> •
+<a href="YOUR_LINKEDIN">LinkedIn</a> •
+<a href="YOUR_MEDIUM">Medium</a>
+
+</p>
 
 ---
 
-<p align="center">
+<div align="center">
 
-*"Stay curious. Build thoughtfully. Never stop learning."*
+### 💡 *"Stay curious. Build thoughtfully. Share what you learn."*
 
-</p>
+</div>
