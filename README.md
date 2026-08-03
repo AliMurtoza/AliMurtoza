@@ -100,7 +100,7 @@ Building reliable software, exploring Artificial Intelligence, and continuously 
 
 ## 🏆 Competitive Programming
 
-- 💙 LeetCode
+- 💙 <a href="https://leetcode.com/u/Ali98Murtoza/">LeetCode</a> : 1673 (Top 16.04%)
 - 🟡 Codeforces
 - 🟢 AtCoder
 - 🟤 CodeChef
