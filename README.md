@@ -12,7 +12,7 @@ Building reliable software, exploring Artificial Intelligence, and continuously 
 
 ## 👨‍💻 About Me
 
-- 💼 Full-Stack Software Engineer with **3 years** of professional experience
+- 💼 Full-Stack Software Engineer with **3.5 years** of professional experience
 - 🎓 B.Sc. in Computer Science & Engineering, **University of Dhaka**
 - 🔬 Passionate about **Software Engineering**, **Artificial Intelligence**, and **Machine Learning**
 - 🚀 Interested in scalable backend systems, distributed systems, and modern web development
