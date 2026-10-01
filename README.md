@@ -82,7 +82,7 @@ Building reliable software, exploring Artificial Intelligence, and continuously 
 
 - 📄 Predicting Protein–Protein Interaction on Domain and Interface Levels using CNN
 - 📄 Applications and Limitations of Machine Learning in Radiation Oncology
-- 📄 Software Structural Defect Prediction *(Work in Progress)*
+- 📄 Software Structural Defect Prediction _(Work in Progress)_
 
 ---
 
@@ -133,15 +133,15 @@ Competitive programming stats are automatically visualized and updated via GitHu
     <img src="https://img.shields.io/badge/Medium-%40ali--murtoza-000000?style=flat-square&logo=medium&logoColor=white" alt="Medium/@ali-murtoza"/>
   </a>
   &nbsp;
-  <a href="mailto:a.murtoza.work@gmail.com">
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=a.murtoza.work%40gmail.com">
     <img src="https://img.shields.io/badge/Mail-a.murtoza.work-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Mail/a.murtoza.work"/>
-  </a>
+    </a>
 </p>
 
 ---
 
 <div align="center">
 
-### 💡 *"Stay curious. Build thoughtfully. Share what you learn."*
+### 💡 _"Stay curious. Build thoughtfully. Share what you learn."_
 
 </div>
