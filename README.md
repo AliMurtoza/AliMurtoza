@@ -125,8 +125,8 @@ Building reliable software, exploring Artificial Intelligence, and continuously 
 <p>
 
 <a href="https://github.com/AliMurtoza">GitHub</a> •
-<a href="YOUR_LINKEDIN">LinkedIn</a> •
-<a href="YOUR_MEDIUM">Medium</a>
+<a href="https://www.linkedin.com/in/a-murtoza/">LinkedIn</a> •
+<a href="https://medium.com/@ali-murtoza">Medium</a>
 
 </p>
 
