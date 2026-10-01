@@ -133,7 +133,7 @@ Competitive programming stats are automatically visualized and updated via GitHu
     <img src="https://img.shields.io/badge/Medium-%40ali--murtoza-000000?style=flat-square&logo=medium&logoColor=white" alt="Medium/@ali-murtoza"/>
   </a>
   &nbsp;
-  <a href="mailto:a.murtoza.work@email.com">
+  <a href="mailto:a.murtoza.work@gmail.com">
     <img src="https://img.shields.io/badge/Mail-a.murtoza.work-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Mail/a.murtoza.work"/>
   </a>
 </p>
