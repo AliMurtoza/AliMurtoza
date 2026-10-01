@@ -105,6 +105,8 @@ Building reliable software, exploring Artificial Intelligence, and continuously 
 - AtCoder/<a href="https://atcoder.jp/users/hydrO7gen/">hydrO7gen</a> rating: 823 (Top 18.98%)
 - CodeChef/<a href="https://www.codechef.com/users/hydr007gen/">hydr007gen</a> rating: 1464 (Top 13.95%)
 
+![Competitive Programming Percentiles](assets/cp-percentiles.svg)
+
 ---
 
 ## 🌱 Currently Exploring

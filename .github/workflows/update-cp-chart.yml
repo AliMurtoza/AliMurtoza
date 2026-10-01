@@ -1,0 +1,41 @@
+name: Update Competitive Programming Chart
+
+on:
+  push:
+    paths:
+      - "README.md"
+      - "scripts/generate_cp_chart.py"
+      - ".github/workflows/update-cp-chart.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate-chart:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Generate chart
+        run: python scripts/generate_cp_chart.py
+
+      - name: Commit updated chart
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/cp-percentiles.svg
+
+          if git diff --cached --quiet; then
+            echo "No chart changes."
+          else
+            git commit -m "chore: update competitive programming chart"
+            git push
+          fi
