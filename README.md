@@ -100,10 +100,10 @@ Building reliable software, exploring Artificial Intelligence, and continuously 
 
 ## 🏆 Competitive Programming
 
-- 💙 <a href="https://leetcode.com/u/Ali98Murtoza/">LeetCode</a> : 1673 (Top 16.04%)
-- 🟡 Codeforces
-- 🟢 AtCoder
-- 🟤 CodeChef
+- LeetCode/<a href="https://leetcode.com/u/Ali98Murtoza/">Ali98Murtoza</a> rating: 1718 (Top 12.59%)
+- Codeforces/<a href="https://codeforces.com/profile/HydrO7gen/">HydrO7gen</a> rating: 1192 (Top 30.74%)
+- AtCoder/<a href="https://atcoder.jp/users/hydrO7gen/">hydrO7gen</a> rating: 823 (Top 18.98%)
+- CodeChef/<a href="https://www.codechef.com/users/hydr007gen/">hydr007gen</a> rating: 1464 (Top 13.95%)
 
 ---
 
