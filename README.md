@@ -107,6 +107,8 @@ Building reliable software, exploring Artificial Intelligence, and continuously 
 
 ![Competitive Programming Percentiles](assets/cp-percentiles.svg)
 
+Competitive programming stats are automatically visualized and updated via GitHub Actions.
+
 ---
 
 ## 🌱 Currently Exploring
