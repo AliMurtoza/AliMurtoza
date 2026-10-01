@@ -123,11 +123,17 @@ Building reliable software, exploring Artificial Intelligence, and continuously 
 ## 📫 Connect with Me
 
 <p>
-
-<a href="https://www.linkedin.com/in/a-murtoza/">LinkedIn</a> •
-<a href="https://medium.com/@ali-murtoza">Medium</a> •
-<a href="mailto:a.murtoza.work@email.com">Email</a>
-
+  <a href="https://www.linkedin.com/in/a-murtoza/">
+    <img src="https://img.shields.io/badge/LinkedIn-a--murtoza-0A66C2?style=flat-square&logoColor=white&logo=https%3A%2F%2Fcdn.simpleicons.org%2Flinkedin%2Fwhite" alt="LinkedIn/a-murtoza"/>
+  </a>
+  &nbsp;
+  <a href="https://medium.com/@ali-murtoza">
+    <img src="https://img.shields.io/badge/Medium-%40ali--murtoza-000000?style=flat-square&logo=medium&logoColor=white" alt="Medium/@ali-murtoza"/>
+  </a>
+  &nbsp;
+  <a href="mailto:a.murtoza.work@email.com">
+    <img src="https://img.shields.io/badge/Mail-a.murtoza.work-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Mail/a.murtoza.work"/>
+  </a>
 </p>
 
 ---
