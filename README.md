@@ -7,7 +7,7 @@
 
 <h1 align="left">
   Hi <img src="./assets/waving-hand.svg" height="32" alt="waving hand" style="vertical-align: middle; margin-bottom: 4px;" />
-  I'm <img src="./assets/name-reveal.svg" height="60" alt="Ali Murtoza Shihab" style="vertical-align: middle;" />
+  I'm <img src="https://raw.githubusercontent.com/AliMurtoza/AliMurtoza/main/assets/name-reveal.svg" height="60" alt="Ali Murtoza Shihab" style="vertical-align: middle;" />
 </h1>
 
 <p align="left">
