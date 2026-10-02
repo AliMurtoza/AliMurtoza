@@ -1,12 +1,11 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 40 40"
-  width="32"
-  height="32"
 >
   <style>
     .hand {
-      transform-origin: 50% 90%;
+      transform-box: fill-box;
+      transform-origin: center bottom;
       animation: wave 1.8s ease-in-out infinite;
     }
 

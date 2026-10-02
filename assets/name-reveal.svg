@@ -1,0 +1,56 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 460 60"
+  preserveAspectRatio="xMidYMid meet"
+>
+  <style>
+    text {
+      font-family: "Courier New", monospace;
+      font-size: 32px;
+      font-weight: 600;
+    }
+
+    .prompt {
+      fill: #7ee787;
+    }
+
+    .name {
+      fill: #58a6ff;
+    }
+
+    .line {
+      opacity: 0;
+    }
+
+    .line1  { animation: show 0.15s 0.00s forwards; }
+    .line2  { animation: show 0.15s 0.15s forwards; }
+    .line3  { animation: show 0.15s 0.30s forwards; }
+    .line4  { animation: show 0.15s 0.45s forwards; }
+    .line5  { animation: show 0.15s 0.60s forwards; }
+    .line6  { animation: show 0.15s 0.75s forwards; }
+    .line7  { animation: show 0.15s 0.90s forwards; }
+    .line8  { animation: show 0.15s 1.05s forwards; }
+    .line9  { animation: show 0.15s 1.20s forwards; }
+    .line10 { animation: show 0.15s 1.35s forwards; }
+    .line11 { animation: show 0.15s 1.50s forwards; }
+    .line12 { animation: show 0.15s 1.65s forwards; }
+    .line13 { animation: show 0.15s 1.80s forwards; }
+    .line14 { animation: show 0.15s 1.95s forwards; }
+
+    @keyframes show {
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+
+  <text x="8" y="38" class="prompt">›</text>
+
+  <text x="30" y="38" class="name">
+    <tspan class="line line1">A</tspan><tspan class="line line2">l</tspan><tspan class="line line3">i</tspan>
+    <tspan class="line line4"> </tspan>
+    <tspan class="line line5">M</tspan><tspan class="line line6">u</tspan><tspan class="line line7">r</tspan><tspan class="line line8">t</tspan><tspan class="line line9">o</tspan><tspan class="line line10">z</tspan><tspan class="line line11">a</tspan>
+    <tspan class="line line12"> </tspan>
+    <tspan class="line line13">S</tspan><tspan class="line line14">h</tspan>ihab
+  </text>
+</svg>
