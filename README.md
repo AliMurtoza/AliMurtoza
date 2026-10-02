@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/profile-banner.png" alt="A. N. M. Ali Murtoza Shihab — Software Engineer" />
+</p>
+
 <h1 align="center">Hi 👋, I'm Ali Murtoza Shihab</h1>
 
 <h3 align="center">
