@@ -1,0 +1,48 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 40 40"
+>
+  <style>
+    .hand {
+      transform-box: fill-box;
+      transform-origin: center bottom;
+      animation: wave 1.8s ease-in-out infinite;
+    }
+
+    @keyframes wave {
+      0%, 60%, 100% {
+        transform: rotate(0deg);
+      }
+
+      10% {
+        transform: rotate(14deg);
+      }
+
+      20% {
+        transform: rotate(-8deg);
+      }
+
+      30% {
+        transform: rotate(14deg);
+      }
+
+      40% {
+        transform: rotate(-4deg);
+      }
+
+      50% {
+        transform: rotate(0deg);
+      }
+    }
+  </style>
+
+  <g class="hand">
+    <text
+      x="20"
+      y="29"
+      text-anchor="middle"
+      font-size="28"
+      font-family="Apple Color Emoji, Segoe UI Emoji, Noto Color Emoji, sans-serif"
+    >👋</text>
+  </g>
+</svg>
