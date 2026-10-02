@@ -122,7 +122,8 @@
 
 ![Competitive Programming Percentiles](assets/cp-percentiles.svg)
 
-Competitive programming stats are automatically visualized and updated via GitHub Actions.
+<!-- Competitive programming stats are automatically visualized and updated via GitHub Actions. -->
+<!-- This part has broken; need to work on the automation -->
 
 ---
 

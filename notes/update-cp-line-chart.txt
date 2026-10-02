@@ -1,0 +1,2 @@
+To update the chart from yml, run this command on terminal:
+python -u "d:\Codes\Portfolio\scripts\generate_cp_chart.py" (Replace the file directory for python script if needed)
