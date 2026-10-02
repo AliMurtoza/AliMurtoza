@@ -4,9 +4,13 @@
 
 <h1 align="center">Hi 👋, I'm Ali Murtoza Shihab</h1>
 
-<h3 align="center">
-Full-Stack Software Engineer • Research Enthusiast • Lifelong Learner
-</h3>
+<p align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2000&pause=1500&color=58A6FF&center=true&vCenter=true&width=700&lines=Full-Stack+Software+Engineer;AI+%26+Machine+Learning+Enthusiast;Software+Engineering+Researcher;System+Design+%26+Cloud+Learner"
+    alt="Typing animation"
+  />
+</p>
+
 
 <p align="center">
 Building reliable software, exploring Artificial Intelligence, and continuously learning.
