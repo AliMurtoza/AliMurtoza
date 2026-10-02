@@ -1,56 +1,92 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 460 60"
+  viewBox="0 0 540 70"
   preserveAspectRatio="xMidYMid meet"
 >
   <style>
     text {
       font-family: "Courier New", monospace;
-      font-size: 32px;
-      font-weight: 600;
+      font-size: 34px;
+      font-weight: 900;
+      text-transform: uppercase;
     }
 
+    /* Retro Terminal Black & White Glows */
     .prompt {
-      fill: #7ee787;
+      fill: #ffffff;
+      filter: drop-shadow(0 0 4px #ffffff);
+      animation: blink 0.8s infinite steps(2);
     }
 
     .name {
-      fill: #58a6ff;
+      fill: #ffffff;
+      filter: drop-shadow(0 0 5px #ffffff);
     }
 
-    .line {
+    /* Glitchy Matrix Reveal */
+    .char {
       opacity: 0;
+      display: inline-block;
     }
 
-    .line1  { animation: show 0.15s 0.00s forwards; }
-    .line2  { animation: show 0.15s 0.15s forwards; }
-    .line3  { animation: show 0.15s 0.30s forwards; }
-    .line4  { animation: show 0.15s 0.45s forwards; }
-    .line5  { animation: show 0.15s 0.60s forwards; }
-    .line6  { animation: show 0.15s 0.75s forwards; }
-    .line7  { animation: show 0.15s 0.90s forwards; }
-    .line8  { animation: show 0.15s 1.05s forwards; }
-    .line9  { animation: show 0.15s 1.20s forwards; }
-    .line10 { animation: show 0.15s 1.35s forwards; }
-    .line11 { animation: show 0.15s 1.50s forwards; }
-    .line12 { animation: show 0.15s 1.65s forwards; }
-    .line13 { animation: show 0.15s 1.80s forwards; }
-    .line14 { animation: show 0.15s 1.95s forwards; }
+    /* Individual letter delays with custom keyframes */
+    .c1  { animation: glitchReveal 0.2s 0.05s forwards; }
+    .c2  { animation: glitchReveal 0.2s 0.12s forwards; }
+    .c3  { animation: glitchReveal 0.2s 0.19s forwards; }
+    .c4  { animation: glitchReveal 0.2s 0.26s forwards; } /* space */
+    .c5  { animation: glitchReveal 0.2s 0.33s forwards; }
+    .c6  { animation: glitchReveal 0.2s 0.40s forwards; }
+    .c7  { animation: glitchReveal 0.2s 0.47s forwards; }
+    .c8  { animation: glitchReveal 0.2s 0.54s forwards; }
+    .c9  { animation: glitchReveal 0.2s 0.61s forwards; }
+    .c10 { animation: glitchReveal 0.2s 0.68s forwards; }
+    .c11 { animation: glitchReveal 0.2s 0.75s forwards; }
+    .c12 { animation: glitchReveal 0.2s 0.82s forwards; } /* space */
+    .c13 { animation: glitchReveal 0.2s 0.89s forwards; }
+    .c14 { animation: glitchReveal 0.2s 0.96s forwards; }
+    .c15 { animation: glitchReveal 0.2s 1.03s forwards; }
+    .c16 { animation: glitchReveal 0.2s 1.10s forwards; }
+    .c17 { animation: glitchReveal 0.2s 1.17s forwards; }
+    .c18 { animation: glitchReveal 0.2s 1.24s forwards; }
 
-    @keyframes show {
-      to {
-        opacity: 1;
-      }
+    /* CRT Terminal Cursor tracking the text */
+    .cursor {
+      fill: #ffffff;
+      filter: drop-shadow(0 0 6px #ffffff);
+      animation: 
+        moveCursor 1.3s steps(18) forwards,
+        blink 0.4s infinite alternate;
+    }
+
+    /* Retro CRT Keyframes (Updated for Grayscale Transition) */
+    @keyframes glitchReveal {
+      0% { opacity: 0; fill: #555555; transform: scaleY(1.8); }
+      50% { opacity: 1; fill: #aaaaaa; }
+      100% { opacity: 1; fill: #ffffff; }
+    }
+
+    @keyframes blink {
+      to { opacity: 0; }
+    }
+
+    @keyframes moveCursor {
+      0%   { transform: translateX(0px); }
+      100% { transform: translateX(378px); } /* Perfect alignment with monospace font grid */
     }
   </style>
 
-  <text x="8" y="38" class="prompt">›</text>
+  <!-- Prompt Character -->
+  <text x="15" y="45" class="prompt">></text>
 
-  <text x="30" y="38" class="name">
-    <tspan class="line line1">A</tspan><tspan class="line line2">l</tspan><tspan class="line line3">i</tspan>
-    <tspan class="line line4"> </tspan>
-    <tspan class="line line5">M</tspan><tspan class="line line6">u</tspan><tspan class="line line7">r</tspan><tspan class="line line8">t</tspan><tspan class="line line9">o</tspan><tspan class="line line10">z</tspan><tspan class="line line11">a</tspan>
-    <tspan class="line line12"> </tspan>
-    <tspan class="line line13">S</tspan><tspan class="line line14">h</tspan>ihab
+  <!-- Animated Name String -->
+  <text x="40" y="45" class="name">
+    <tspan class="char c1">A</tspan><tspan class="char c2">l</tspan><tspan class="char c3">i</tspan>
+    <tspan class="char c4"> </tspan>
+    <tspan class="char c5">M</tspan><tspan class="char c6">u</tspan><tspan class="char c7">r</tspan><tspan class="char c8">t</tspan><tspan class="char c9">o</tspan><tspan class="char c10">z</tspan><tspan class="char c11">a</tspan>
+    <tspan class="char c12"> </tspan>
+    <tspan class="char c13">S</tspan><tspan class="char c14">h</tspan><tspan class="char c15">i</tspan><tspan class="char c16">h</tspan><tspan class="char c17">a</tspan><tspan class="char c18">b</tspan>
   </text>
+
+  <!-- Retro Block Cursor Block -->
+  <rect x="40" y="18" width="18" height="32" class="cursor" />
 </svg>
