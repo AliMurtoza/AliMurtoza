@@ -7,12 +7,13 @@
 
 <h1 align="left">
   Hi <img src="./assets/waving-hand.svg" height="32" alt="waving hand" style="vertical-align: middle; margin-bottom: 4px;" />
-  I'm <img src="https://raw.githubusercontent.com/AliMurtoza/AliMurtoza/main/assets/name-reveal.svg" height="60" alt="Ali Murtoza Shihab" style="vertical-align: middle;" />
+  <!-- I'm <img src="https://raw.githubusercontent.com/AliMurtoza/AliMurtoza/main/assets/name-reveal.svg" height="60" alt="Ali Murtoza Shihab" style="vertical-align: middle;" /> -->
+  I'm Ali Murtoza Shihab
 </h1>
 
 <p align="left">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2000&pause=1500&color=58A6FF&vCenter=true&width=700&lines=Full-Stack+Software+Engineer;AI+%26+Machine+Learning+Enthusiast;Software+Engineering+Researcher;System+Design+%26+Cloud+Learner"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2000&pause=1500&color=304b8a&vCenter=true&width=700&lines=Full-Stack+Software+Engineer;AI+%26+Machine+Learning+Enthusiast;Software+Engineering+Researcher;System+Design+%26+Cloud+Learner"
     alt="Typing animation"
   />
 </p>
