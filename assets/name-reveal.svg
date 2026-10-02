@@ -4,76 +4,96 @@
   preserveAspectRatio="xMidYMid meet"
 >
   <style>
-    text {
-      font-family: "Courier New", monospace;
-      font-size: 34px;
-      font-weight: 900;
-      text-transform: uppercase;
-    }
+  text {
+    font-family: "Courier New", monospace;
+    font-size: 34px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
 
-    /* Retro Terminal Black & White Glows */
-    .prompt {
-      fill: #ffffff;
-      filter: drop-shadow(0 0 4px #ffffff);
-      animation: blink 0.8s infinite steps(2);
-    }
+  /* Readable terminal prompt */
+  .prompt {
+    fill: #1a7f37;
+    filter: drop-shadow(0 0 2px rgba(26, 127, 55, 0.35));
+    animation: blink 0.8s infinite steps(2);
+  }
 
-    .name {
-      fill: #ffffff;
-      filter: drop-shadow(0 0 5px #ffffff);
-    }
+  /* High-contrast name */
+  .name {
+    fill: #0969da;
+    filter: drop-shadow(0 0 2px rgba(9, 105, 218, 0.25));
+  }
 
-    /* Glitchy Matrix Reveal */
-    .char {
+  .char {
+    opacity: 0;
+    display: inline-block;
+  }
+
+  /* Individual letter delays */
+  .c1  { animation: glitchReveal 0.2s 0.05s forwards; }
+  .c2  { animation: glitchReveal 0.2s 0.12s forwards; }
+  .c3  { animation: glitchReveal 0.2s 0.19s forwards; }
+  .c4  { animation: glitchReveal 0.2s 0.26s forwards; }
+  .c5  { animation: glitchReveal 0.2s 0.33s forwards; }
+  .c6  { animation: glitchReveal 0.2s 0.40s forwards; }
+  .c7  { animation: glitchReveal 0.2s 0.47s forwards; }
+  .c8  { animation: glitchReveal 0.2s 0.54s forwards; }
+  .c9  { animation: glitchReveal 0.2s 0.61s forwards; }
+  .c10 { animation: glitchReveal 0.2s 0.68s forwards; }
+  .c11 { animation: glitchReveal 0.2s 0.75s forwards; }
+  .c12 { animation: glitchReveal 0.2s 0.82s forwards; }
+  .c13 { animation: glitchReveal 0.2s 0.89s forwards; }
+  .c14 { animation: glitchReveal 0.2s 0.96s forwards; }
+  .c15 { animation: glitchReveal 0.2s 1.03s forwards; }
+  .c16 { animation: glitchReveal 0.2s 1.10s forwards; }
+  .c17 { animation: glitchReveal 0.2s 1.17s forwards; }
+  .c18 { animation: glitchReveal 0.2s 1.24s forwards; }
+
+  /* Subtle readable cursor */
+  .cursor {
+    fill: #cf222e;
+    filter: drop-shadow(0 0 2px rgba(207, 34, 46, 0.35));
+    animation:
+      moveCursor 1.3s steps(18) forwards,
+      blink 0.4s infinite alternate;
+  }
+
+  /* Light-background-friendly glitch */
+  @keyframes glitchReveal {
+    0% {
       opacity: 0;
-      display: inline-block;
+      fill: #8250df;
+      transform: scaleY(1.8);
     }
 
-    /* Individual letter delays with custom keyframes */
-    .c1  { animation: glitchReveal 0.2s 0.05s forwards; }
-    .c2  { animation: glitchReveal 0.2s 0.12s forwards; }
-    .c3  { animation: glitchReveal 0.2s 0.19s forwards; }
-    .c4  { animation: glitchReveal 0.2s 0.26s forwards; } /* space */
-    .c5  { animation: glitchReveal 0.2s 0.33s forwards; }
-    .c6  { animation: glitchReveal 0.2s 0.40s forwards; }
-    .c7  { animation: glitchReveal 0.2s 0.47s forwards; }
-    .c8  { animation: glitchReveal 0.2s 0.54s forwards; }
-    .c9  { animation: glitchReveal 0.2s 0.61s forwards; }
-    .c10 { animation: glitchReveal 0.2s 0.68s forwards; }
-    .c11 { animation: glitchReveal 0.2s 0.75s forwards; }
-    .c12 { animation: glitchReveal 0.2s 0.82s forwards; } /* space */
-    .c13 { animation: glitchReveal 0.2s 0.89s forwards; }
-    .c14 { animation: glitchReveal 0.2s 0.96s forwards; }
-    .c15 { animation: glitchReveal 0.2s 1.03s forwards; }
-    .c16 { animation: glitchReveal 0.2s 1.10s forwards; }
-    .c17 { animation: glitchReveal 0.2s 1.17s forwards; }
-    .c18 { animation: glitchReveal 0.2s 1.24s forwards; }
-
-    /* CRT Terminal Cursor tracking the text */
-    .cursor {
-      fill: #ffffff;
-      filter: drop-shadow(0 0 6px #ffffff);
-      animation: 
-        moveCursor 1.3s steps(18) forwards,
-        blink 0.4s infinite alternate;
+    50% {
+      opacity: 1;
+      fill: #bf8700;
     }
 
-    /* Retro CRT Keyframes (Updated for Grayscale Transition) */
-    @keyframes glitchReveal {
-      0% { opacity: 0; fill: #555555; transform: scaleY(1.8); }
-      50% { opacity: 1; fill: #aaaaaa; }
-      100% { opacity: 1; fill: #ffffff; }
+    100% {
+      opacity: 1;
+      fill: #0969da;
+    }
+  }
+
+  @keyframes blink {
+    to {
+      opacity: 0;
+    }
+  }
+
+  @keyframes moveCursor {
+    0% {
+      transform: translateX(0px);
     }
 
-    @keyframes blink {
-      to { opacity: 0; }
+    100% {
+      transform: translateX(378px);
     }
+  }
+</style>
 
-    @keyframes moveCursor {
-      0%   { transform: translateX(0px); }
-      100% { transform: translateX(378px); } /* Perfect alignment with monospace font grid */
-    }
-  </style>
 
   <!-- Prompt Character -->
   <text x="15" y="45" class="prompt">></text>
