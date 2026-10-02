@@ -2,7 +2,9 @@
   <img src="./assets/profile-banner-optimized.webp" alt="A. N. M. Ali Murtoza Shihab — Software Engineer" />
 </p>
 
-<h1 align="center">Hi 👋, I'm Ali Murtoza Shihab</h1>
+<h1 align="center">
+  Hi <img src="./assets/waving-hand.svg" width="auto" alt="waving hand" /> I'm Ali Murtoza Shihab
+</h1>
 
 <p align="center">
   <img
