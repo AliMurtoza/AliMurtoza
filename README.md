@@ -114,7 +114,7 @@
 ---
 
 ## 🏆 Competitive Programming
-
+(Updated as of October 10, 2026)
 - LeetCode/<a href="https://leetcode.com/u/Ali98Murtoza/">Ali98Murtoza</a> rating: 1765 (Top 9.78%)
 - Codeforces/<a href="https://codeforces.com/profile/HydrO7gen/">HydrO7gen</a> rating: 1192 (Top 31.04%)
 - AtCoder/<a href="https://atcoder.jp/users/hydrO7gen/">hydrO7gen</a> rating: 747 (Top 19.06%)
