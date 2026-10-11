@@ -14,11 +14,11 @@ xmlns="http://www.w3.org/2000/svg">
     }
 
     .track {
-        fill: #eaeef2;
+        fill: #d0d7df;
     }
 
     .fill {
-        fill: #2da44e;
+        fill: #16537e;
     }
 
     @media (prefers-color-scheme: dark) {
@@ -58,7 +58,7 @@ xmlns="http://www.w3.org/2000/svg">
     <rect
         x="150"
         y="35"
-        width="505.34"
+        width="505.23"
         height="14"
         rx="7"
         class="fill"
@@ -68,7 +68,7 @@ xmlns="http://www.w3.org/2000/svg">
         x="730"
         y="48"
         class="pct"
-    >Top 9.76%</text>
+    >Top 9.78%</text>
     
     <text
         x="30"
@@ -88,7 +88,7 @@ xmlns="http://www.w3.org/2000/svg">
     <rect
         x="150"
         y="80"
-        width="387.86"
+        width="386.18"
         height="14"
         rx="7"
         class="fill"
@@ -98,7 +98,7 @@ xmlns="http://www.w3.org/2000/svg">
         x="730"
         y="93"
         class="pct"
-    >Top 30.74%</text>
+    >Top 31.04%</text>
     
     <text
         x="30"
@@ -118,7 +118,7 @@ xmlns="http://www.w3.org/2000/svg">
     <rect
         x="150"
         y="125"
-        width="453.71"
+        width="453.26"
         height="14"
         rx="7"
         class="fill"
@@ -128,7 +128,7 @@ xmlns="http://www.w3.org/2000/svg">
         x="730"
         y="138"
         class="pct"
-    >Top 18.98%</text>
+    >Top 19.06%</text>
     
     <text
         x="30"
@@ -148,7 +148,7 @@ xmlns="http://www.w3.org/2000/svg">
     <rect
         x="150"
         y="170"
-        width="481.88"
+        width="482.44"
         height="14"
         rx="7"
         class="fill"
@@ -158,5 +158,5 @@ xmlns="http://www.w3.org/2000/svg">
         x="730"
         y="183"
         class="pct"
-    >Top 13.95%</text>
+    >Top 13.85%</text>
     </svg>

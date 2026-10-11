@@ -54,11 +54,11 @@ xmlns="http://www.w3.org/2000/svg">
     }}
 
     .track {{
-        fill: #eaeef2;
+        fill: #d0d7df;
     }}
 
     .fill {{
-        fill: #2da44e;
+        fill: #16537e;
     }}
 
     @media (prefers-color-scheme: dark) {{
