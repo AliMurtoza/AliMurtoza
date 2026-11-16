@@ -114,9 +114,9 @@
 ---
 
 ## 🏆 Competitive Programming
-(Updated as of November 14, 2026)
+(Updated as of November 17, 2026)
 - LeetCode/<a href="https://leetcode.com/u/Ali98Murtoza/">Ali98Murtoza</a> rating: <strong><span style="color: #2900ff;">1765</span></strong> (Top 10.07%)
-- Codeforces/<a href="https://codeforces.com/profile/HydrO7gen/">HydrO7gen</a> rating: <strong><span style="color: #03a89e;">1463</span></strong> (Top 12.68%)
+- Codeforces/<a href="https://codeforces.com/profile/HydrO7gen/">HydrO7gen</a> rating: <strong><span style="color: #03a89e;">1513</span></strong> (Top 10.59%)
 - AtCoder/<a href="https://atcoder.jp/users/hydrO7gen/">hydrO7gen</a> rating: <strong><span style="color: #008000;">801</span></strong> (Top 17.07%)
 - CodeChef/<a href="https://www.codechef.com/users/hydr007gen/">hydr007gen</a> rating: <strong><span style="color: #1e7d22;">1464</span></strong> (Top 14.38%)
 
